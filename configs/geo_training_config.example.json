@@ -1,0 +1,46 @@
+{
+  "reference": {
+    "gtf": "data/raw/reference/Homo_sapiens.GRCh37.87.gtf.gz",
+    "fasta": "data/raw/reference/Homo_sapiens.GRCh37.dna.primary_assembly.fa.gz",
+    "transcript_biotype": "protein_coding"
+  },
+  "cell_lines": {
+    "a549": {
+      "geo": "GSE71154",
+      "bed_files": [
+        "data/raw/geo/GSE71154/GSM1828596_precise_m6A_sites_A549_hg19.bed"
+      ]
+    },
+    "cd8t": {
+      "geo": "GSE71154",
+      "bed_files": [
+        "data/raw/geo/GSE71154/GSM1828594_precise_m6A_sites_CD8T_hg19.bed"
+      ]
+    },
+    "hek293": {
+      "geo": "GSE63753",
+      "bed_files": [
+        "data/raw/geo/GSE63753/GSE63753_hek293.abcam.CIMS.m6A.9536.bed",
+        "data/raw/geo/GSE63753/GSE63753_hek293.sysy.CITS.m6A.12051.bed"
+      ]
+    },
+    "hela": {
+      "geo": "GSE86336",
+      "bed_files": [
+        "data/raw/geo/GSE86336/GSM2300426_precise_m6A_sites_HeLa_CA_hg19.bed.gz",
+        "data/raw/geo/GSE86336/GSM2300427_precise_m6A_sites_HeLa_NU_hg19.bed.gz",
+        "data/raw/geo/GSE86336/GSM2300428_precise_m6A_sites_HeLa_CY_hg19.bed.gz",
+        "data/raw/geo/GSE86336/GSM2300429_precise_m6A_sites_HeLa_CYpolyA_hg19.bed.gz"
+      ]
+    },
+    "molm13": {
+      "geo": "GSE98623",
+      "bed_files": [
+        "data/raw/geo/GSE98623/GSM2602070_molm13_rep1.tag.uniq.sites.bed.gz",
+        "data/raw/geo/GSE98623/GSM2602071_molm13_rep2.tag.uniq.sites.bed.gz",
+        "data/raw/geo/GSE98623/GSM2602072_molm13_rep3.tag.uniq.sites.bed.gz"
+      ]
+    }
+  }
+}
+
